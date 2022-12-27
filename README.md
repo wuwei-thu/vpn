@@ -1,5 +1,5 @@
 # vpn
-a quick way to create a vpn server in aws with CloudFormation
+a quick way to create a vpn server in aws with CloudFormation,derived from https://github.com/webdigi/AWS-VPN-Server-Setup/
 
 If you want to use the aws free tier resources, you should chose the Standard.VPN-t2.micro option for most regions,except for the regions listed below:
 Asia Pacific (Hong Kong),Africa (Cape Town),Asia Pacific (Hyderabad),Asia Pacific (Jakarta),Europe (Zurich),Europe (Milan),Europe (Spain),Middle East (UAE),Middle East (Bahrain),Europe (Stockholm).
