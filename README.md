@@ -1,6 +1,8 @@
 # vpn
 a quick way to create a vpn server in aws with CloudFormation,derived from https://github.com/webdigi/AWS-VPN-Server-Setup/
 
+the new Unified-Cloud-Formation.yaml delete the pptp vpn mode,now it only support L2TP vpn mode.
+
 If you want to use the aws free tier resources, you should chose the Standard.VPN-t2.micro option for most regions,except for the regions listed below:
 Asia Pacific (Hong Kong),Africa (Cape Town),Asia Pacific (Hyderabad),Asia Pacific (Jakarta),Europe (Zurich),Europe (Milan),Europe (Spain),Middle East (UAE),Middle East (Bahrain),Europe (Stockholm).
 For those regions listed above, you should chose High.Speed.VPN-t3.micro option to use the aws free package.
